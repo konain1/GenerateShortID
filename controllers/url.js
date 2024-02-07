@@ -42,7 +42,7 @@ async function GetbyURL(req,res){
     )
 
     // let result = await URL.findOne({_id:id})
-    res.json(result.redirectURL)
+    res.redirect(result.redirectURL)
 
 }
 
